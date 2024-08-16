@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+#canvas-image-blending {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 3.0rem;
+  background-color: #c4b76e;
+  padding: 1px;
+  overflow: hidden; /* Hide overflow within the footer */
+}
+
+h1 {
+  color: brown;
+  max-width: 100vw; /* Prevent overflowing */
+}
+
+.image-container img {
+  max-width: 100%; /* Adjust as needed */
+  height: auto;
+}
+
+.col-md-6 {
+  aspect-ratio: 16 / 9; /* Adjust the aspect ratio if needed */
+  overflow: hidden;
+}
+
+.col-md-6 img {
+  width: 100%; /* Ensures image fills the container */
+  height: auto; /* Allows image to adjust to maintain aspect ratio */
+}
+
